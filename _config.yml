@@ -63,7 +63,7 @@ feed:
 ## For more settings: https://jekyllrb.com/docs/configuration/
 
 # exclude files if no need build
-exclude: ['package.json', 'node_modules', 'README.md', 'LICENSE']
+exclude: ['package.json', 'node_modules', 'README.md', 'LICENSE', 'v1']
 
 # Gems
 gems: [jekyll-paginate, jekyll-sitemap, jekyll-feed]
