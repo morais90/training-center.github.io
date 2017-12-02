@@ -1,0 +1,30 @@
+.pusher
+
+    input
+        // display: none
+
+        &:checked .pusher__content
+            position: absolute
+            left: 0
+
+    &__button
+        width: 35px
+        height: 7px
+        background: #000
+        border-radius: 3px
+        position: relative
+
+        &:after, &:before
+            content: ''
+            display: block
+            width: 100%
+            height: inherit
+            background: #000
+            border-radius: 3px
+            position: absolute
+        
+        &:before
+            top: -10px
+
+        &:after
+            bottom: -10px
