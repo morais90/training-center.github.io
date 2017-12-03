@@ -43,7 +43,7 @@ github_username:  training-center
 links:
   - title: Home
     url: /
-  - title: Sobre nós
+  - title: Sobre
     url: /about
   - title: Contato
     url: /contact
@@ -57,6 +57,9 @@ highlighter: rouge
 sitemap: true # Generate sitemap.xml
 feed:
   path: atom.xml
+sass:
+  sass_dir: _sass
+  style: compressed
 
 ## For more settings: https://jekyllrb.com/docs/configuration/
 
