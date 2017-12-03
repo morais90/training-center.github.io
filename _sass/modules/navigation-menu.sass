@@ -1,11 +1,14 @@
-nav
+.page-navigation
     flex: 100%
     text-align: center
+    
+    @media (min-width: 760px)
+        flex: 0
+        text-align: initial
 
 .navigation-menu
     display: flex
     justify-content: center
-    
 
     &__item
         display: inline-block

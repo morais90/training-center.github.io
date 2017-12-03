@@ -1,15 +1,39 @@
-header
+.page-header
     display: flex
     flex-wrap: wrap
     justify-content: center
     padding: 10px
     border-bottom: 2px solid #f6f5f0
     
-h1
-    flex: 100%
-    text-align: center
+    @media (min-width: 760px)
+        flex-wrap: nowrap 
+        align-items: center
+        justify-content: space-between
+
+    &__link
+        flex-grow: 1
+        display: flex
+        justify-content: center
+        flex-wrap: wrap
+        flex-direction: column
+        align-items: center
+        padding-bottom: 15px
+        
+        @media (min-width: 760px)
+            flex-grow: initial
+            flex-direction: row
+            padding-bottom: 0
+
+        span
+            font-size: 25px
+        
+            @media (min-width: 760px)
+                padding-left: 15px
 
 .brand-logo
     width: 90px
     padding-bottom: 20px
-    
+
+    @media (min-width: 760px)
+        width: 40px
+        padding-bottom: 0
